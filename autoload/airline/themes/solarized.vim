@@ -78,7 +78,7 @@ function! airline#themes#solarized#refresh()
   " Inactive, according to VertSplit in solarized
   " (bg dark: base00; bg light: base0)
   if s:background == 'dark'
-    let s:IA = [s:base02, s:base00, '']
+    let s:IA = [s:base01, s:base02, '']
   else
     let s:IA = [s:base2, s:base0, '']
   endif
